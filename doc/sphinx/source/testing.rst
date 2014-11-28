@@ -14,7 +14,13 @@ Set the terminal environment using::
 
   source setenv.sh
 
-then run the command::
+Setup a :file:`~/.ovh.conf` file, see https://github.com/ovh/python-ovh#configuration.
+
+then run this command to get an API key::
+
+  ovh-api/get-ovh-consumer-key
+
+and launch the applet::
 
   bin/monitor-server
 

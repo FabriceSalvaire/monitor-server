@@ -63,7 +63,7 @@ The official monitor-server Home Page is located at |monitor-serverUrl|
 
 The latest documentation build from the git repository is available at readthedocs.org |monitor-server@readthedocs-badge|
 
-Written by `Fabrice Salvaire <http://fabrice-salvaire.pagesperso-orange.fr>`_.
+Written by `Fabrice Salvaire <http://www.fabrice-salvaire.fr>`_.
 
 |Build Status|
 
@@ -103,7 +103,7 @@ monitor-server requires the following dependencies:
 
  * Python 2.7
  * PyQt 4.9
- * `acpi_call <https://github.com/mkottman/acpi_call>`_
+ * `python-ovh <https://github.com/ovh/python-ovh>`_
 
 Installation from PyPi Repository
 ---------------------------------

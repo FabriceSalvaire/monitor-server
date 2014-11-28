@@ -16,7 +16,7 @@ monitor-server requires the following dependencies:
 
  * Python 2.7
  * PyQt 4.9
- * `acpi_call <https://github.com/mkottman/acpi_call>`_
+ * `python-ovh <https://github.com/ovh/python-ovh>`_
 
 Installation from PyPi Repository
 ---------------------------------
