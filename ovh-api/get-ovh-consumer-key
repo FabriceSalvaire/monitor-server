@@ -24,6 +24,7 @@
 ####################################################################################################
 
 import ConfigParser
+import os
 import subprocess
 
 ####################################################################################################
@@ -61,13 +62,13 @@ print "your 'consumerKey' is '{}'".format(validation['consumerKey'])
 #     Current user's home directory ~/.ovh.conf
 #     System wide configuration /etc/ovh.conf
 
-configuration_file_path = 'ovh.conf'
+configuration_file_path = os.path.expanduser('~/.ovh.conf')
 
 config = ConfigParser.ConfigParser()
 config.read(configuration_file_path)
 config.set('ovh-eu', 'consumer_key', validation['consumerKey'])
 
-with open('ovh.conf', 'w') as f:
+with open(configuration_file_path, 'w') as f:
     config.write(f)
 
 ####################################################################################################
