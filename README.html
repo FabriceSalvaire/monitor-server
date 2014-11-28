@@ -408,8 +408,28 @@ python setup.py build
 python setup.py install
 </pre>
 <!-- End -->
-<!-- End -->
+<!-- -*- Mode: rst -*- -->
 </div>
+</div>
+<div class="section" id="testing">
+<span id="testing-page"></span><h1>Testing</h1>
+<!-- .. image:: /images/screenshot1.png
+  :scale: 50% -->
+<p>Set the terminal environment using:</p>
+<pre class="literal-block">
+source setenv.sh
+</pre>
+<p>Setup a <em>~/.ovh.conf</em> file, see <a class="reference external" href="https://github.com/ovh/python-ovh#configuration">https://github.com/ovh/python-ovh#configuration</a>.</p>
+<p>then run this command to get an API key:</p>
+<pre class="literal-block">
+ovh-api/get-ovh-consumer-key
+</pre>
+<p>and launch the applet:</p>
+<pre class="literal-block">
+bin/monitor-server
+</pre>
+<!-- End -->
+<!-- End -->
 </div>
 </div>
 </body>

@@ -24,4 +24,6 @@ Written by `Fabrice Salvaire <http://www.fabrice-salvaire.fr>`_.
 
 .. include:: installation.rst
 
+.. include:: testing.rst
+
 .. End

@@ -14,7 +14,7 @@ Set the terminal environment using::
 
   source setenv.sh
 
-Setup a :file:`~/.ovh.conf` file, see https://github.com/ovh/python-ovh#configuration.
+Setup a *~/.ovh.conf* file, see https://github.com/ovh/python-ovh#configuration.
 
 then run this command to get an API key::
 
