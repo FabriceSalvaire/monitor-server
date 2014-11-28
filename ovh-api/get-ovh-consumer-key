@@ -1,0 +1,77 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+####################################################################################################
+# 
+# MonitorServer - A Server Monitoring Application
+# Copyright (C) 2014 Fabrice Salvaire
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# 
+####################################################################################################
+
+####################################################################################################
+
+import ConfigParser
+import subprocess
+
+####################################################################################################
+
+import ovh
+
+####################################################################################################
+
+client = ovh.Client()
+
+# Request token
+access_rules = [
+    {'method': 'GET', 'path': '/*'},
+    {'method': 'POST', 'path': '/*'},
+    {'method': 'PUT', 'path': '/*'},
+    {'method': 'DELETE', 'path': '/*'}
+]
+validation = client.request_consumerkey(access_rules)
+
+print "Please visit {} to authenticate".format(validation['validationUrl'])
+browser = 'xdg-open'
+subprocess.Popen([browser, validation['validationUrl']])
+# import webbrowser
+# webbrowser.open(url)
+
+raw_input("and press Enter to continue ...")
+print "Welcome", client.get('/me')['firstname']
+print "your 'consumerKey' is '{}'".format(validation['consumerKey'])
+
+####################################################################################################
+
+# The client will successively attempt to locate this configuration file in
+#
+#     Current working directory: ./ovh.conf
+#     Current user's home directory ~/.ovh.conf
+#     System wide configuration /etc/ovh.conf
+
+configuration_file_path = 'ovh.conf'
+
+config = ConfigParser.ConfigParser()
+config.read(configuration_file_path)
+config.set('ovh-eu', 'consumer_key', validation['consumerKey'])
+
+with open('ovh.conf', 'w') as f:
+    config.write(f)
+
+####################################################################################################
+# 
+# End
+# 
+####################################################################################################

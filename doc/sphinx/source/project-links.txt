@@ -1,0 +1,42 @@
+.. -*- Mode: rst -*-
+
+..
+   |MonitorServerUrl|
+   |MonitorServerHomePage|_
+   |MonitorServerDoc|_
+   |MonitorServer@github|_
+   |MonitorServer@readthedocs|_
+   |MonitorServer@readthedocs-badge|
+   |MonitorServer@pypi|_
+
+.. |ohloh| image:: https://www.openhub.net/accounts/230426/widgets/account_tiny.gif
+   :target: https://www.openhub.net/accounts/fabricesalvaire
+   :alt: Fabrice Salvaire's Ohloh profile
+   :height: 15px
+   :width:  80px
+
+.. |MonitorServerUrl| replace:: http://fabricesalvaire.github.io/MonitorServer
+
+.. |MonitorServerHomePage| replace:: MonitorServer Home Page
+.. _MonitorServerHomePage: http://fabricesalvaire.github.io/MonitorServer
+
+.. |MonitorServerDoc| replace:: MonitorServer Documentation
+.. _MonitorServerDoc: http://monitorserver.readthedocs.org/en/latest
+
+.. |MonitorServer@readthedocs-badge| image:: https://readthedocs.org/projects/monitorserver/badge/?version=latest
+   :target: http://monitorserver.readthedocs.org/en/latest
+
+.. |MonitorServer@github| replace:: https://github.com/FabriceSalvaire/MonitorServer
+.. .. _MonitorServer@github: https://github.com/FabriceSalvaire/MonitorServer
+
+.. |MonitorServer@readthedocs| replace:: http://monitorserver.readthedocs.org
+.. .. _MonitorServer@readthedocs: http://monitorserver.readthedocs.org
+
+.. |MonitorServer@pypi| replace:: https://pypi.python.org/pypi/MonitorServer
+.. .. _MonitorServer@pypi: https://pypi.python.org/pypi/MonitorServer
+
+.. |Build Status| image:: https://travis-ci.org/FabriceSalvaire/MonitorServer.svg?branch=master
+   :target: https://travis-ci.org/FabriceSalvaire/MonitorServer
+   :alt: MonitorServer build status @travis-ci.org
+
+.. End

@@ -1,0 +1,8 @@
+*_ui.py
+.git
+.gitignore
+LaptopControlPanel/Version.py
+build
+doc/sphinx/old-api
+not-yet-included
+MANIFEST
