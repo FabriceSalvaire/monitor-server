@@ -6,7 +6,7 @@
  API Documentation
 ===================
 
-This is the auto-generated API documentation for the MonitorServer library.
+This is the auto-generated API documentation for the monitor-server library.
 
 .. warning:: The API documentation is automatically generated from the docstrings in the source
   using the |Sphinx| tool.  This way to produce the documentation is know to be perfectible
@@ -17,7 +17,7 @@ Contents:
 .. toctree::
   :maxdepth: 2
 
-  api/MonitorServer
+  api/monitor-server
 
 Indexes
 -------

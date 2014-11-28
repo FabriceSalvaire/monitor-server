@@ -8,6 +8,8 @@
 
 PyQt applet to monitor an OVH Virtual Private Server.
 
+It would be nice to reimplement it using Qt5 QML.
+
 The source code is licensed under GPL V3.
 
 .. End

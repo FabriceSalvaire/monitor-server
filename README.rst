@@ -3,13 +3,13 @@
 .. -*- Mode: rst -*-
 
 ..
-   |MonitorServerUrl|
-   |MonitorServerHomePage|_
-   |MonitorServerDoc|_
-   |MonitorServer@github|_
-   |MonitorServer@readthedocs|_
-   |MonitorServer@readthedocs-badge|
-   |MonitorServer@pypi|_
+   |monitor-serverUrl|
+   |monitor-serverHomePage|_
+   |monitor-serverDoc|_
+   |monitor-server@github|_
+   |monitor-server@readthedocs|_
+   |monitor-server@readthedocs-badge|
+   |monitor-server@pypi|_
 
 .. |ohloh| image:: https://www.openhub.net/accounts/230426/widgets/account_tiny.gif
    :target: https://www.openhub.net/accounts/fabricesalvaire
@@ -17,29 +17,29 @@
    :height: 15px
    :width:  80px
 
-.. |MonitorServerUrl| replace:: http://fabricesalvaire.github.io/MonitorServer
+.. |monitor-serverUrl| replace:: http://fabricesalvaire.github.io/monitor-server
 
-.. |MonitorServerHomePage| replace:: MonitorServer Home Page
-.. _MonitorServerHomePage: http://fabricesalvaire.github.io/MonitorServer
+.. |monitor-serverHomePage| replace:: monitor-server Home Page
+.. _monitor-serverHomePage: http://fabricesalvaire.github.io/monitor-server
 
-.. |MonitorServerDoc| replace:: MonitorServer Documentation
-.. _MonitorServerDoc: http://monitorserver.readthedocs.org/en/latest
+.. |monitor-serverDoc| replace:: monitor-server Documentation
+.. _monitor-serverDoc: http://monitorserver.readthedocs.org/en/latest
 
-.. |MonitorServer@readthedocs-badge| image:: https://readthedocs.org/projects/monitorserver/badge/?version=latest
+.. |monitor-server@readthedocs-badge| image:: https://readthedocs.org/projects/monitorserver/badge/?version=latest
    :target: http://monitorserver.readthedocs.org/en/latest
 
-.. |MonitorServer@github| replace:: https://github.com/FabriceSalvaire/MonitorServer
-.. .. _MonitorServer@github: https://github.com/FabriceSalvaire/MonitorServer
+.. |monitor-server@github| replace:: https://github.com/FabriceSalvaire/monitor-server
+.. .. _monitor-server@github: https://github.com/FabriceSalvaire/monitor-server
 
-.. |MonitorServer@readthedocs| replace:: http://monitorserver.readthedocs.org
-.. .. _MonitorServer@readthedocs: http://monitorserver.readthedocs.org
+.. |monitor-server@readthedocs| replace:: http://monitorserver.readthedocs.org
+.. .. _monitor-server@readthedocs: http://monitorserver.readthedocs.org
 
-.. |MonitorServer@pypi| replace:: https://pypi.python.org/pypi/MonitorServer
-.. .. _MonitorServer@pypi: https://pypi.python.org/pypi/MonitorServer
+.. |monitor-server@pypi| replace:: https://pypi.python.org/pypi/monitor-server
+.. .. _monitor-server@pypi: https://pypi.python.org/pypi/monitor-server
 
-.. |Build Status| image:: https://travis-ci.org/FabriceSalvaire/MonitorServer.svg?branch=master
-   :target: https://travis-ci.org/FabriceSalvaire/MonitorServer
-   :alt: MonitorServer build status @travis-ci.org
+.. |Build Status| image:: https://travis-ci.org/FabriceSalvaire/monitor-server.svg?branch=master
+   :target: https://travis-ci.org/FabriceSalvaire/monitor-server
+   :alt: monitor-server build status @travis-ci.org
 
 .. End
 .. -*- Mode: rst -*-
@@ -56,12 +56,12 @@
 .. End
 
 ====================
- MonitorServer
+ Monitor Server
 ====================
 
-The official MonitorServer Home Page is located at |MonitorServerUrl|
+The official monitor-server Home Page is located at |monitor-serverUrl|
 
-The latest documentation build from the git repository is available at readthedocs.org |MonitorServer@readthedocs-badge|
+The latest documentation build from the git repository is available at readthedocs.org |monitor-server@readthedocs-badge|
 
 Written by `Fabrice Salvaire <http://fabrice-salvaire.pagesperso-orange.fr>`_.
 
@@ -69,8 +69,8 @@ Written by `Fabrice Salvaire <http://fabrice-salvaire.pagesperso-orange.fr>`_.
 
 -----
 
-.. image:: https://raw.github.com/FabriceSalvaire/MonitorServer/master/doc/sphinx/source/images/screenshot1-scaled.png
-.. image:: https://raw.github.com/FabriceSalvaire/MonitorServer/master/doc/sphinx/source/images/screenshot2-scaled.png
+.. 
+  .. image:: https://raw.github.com/FabriceSalvaire/monitor-server/master/doc/sphinx/source/images/screenshot1-scaled.png
 
 .. -*- Mode: rst -*-
 
@@ -79,7 +79,9 @@ Written by `Fabrice Salvaire <http://fabrice-salvaire.pagesperso-orange.fr>`_.
  Introduction
 ==============
 
-MonitorServer is a Python module that provides ...
+PyQt applet to monitor an OVH Virtual Private Server.
+
+It would be nice to reimplement it using Qt5 QML.
 
 The source code is licensed under GPL V3.
 
@@ -97,7 +99,7 @@ The source code is licensed under GPL V3.
 Dependencies
 ------------
 
-MonitorServer requires the following dependencies:
+monitor-server requires the following dependencies:
 
  * Python 2.7
  * PyQt 4.9
@@ -106,26 +108,26 @@ MonitorServer requires the following dependencies:
 Installation from PyPi Repository
 ---------------------------------
 
-MonitorServer is made available on the |Pypi|_ repository at |MonitorServer@pypi|
+monitor-server is made available on the |Pypi|_ repository at |monitor-server@pypi|
 
 Run this command to install the last release:
 
 .. code-block:: sh
 
-  pip install MonitorServer
+  pip install monitor-server
 
 Installation from Source
 ------------------------
 
-The MonitorServer source code is hosted at |MonitorServer@github|
+The monitor-server source code is hosted at |monitor-server@github|
 
 To clone the Git repository, run this command in a terminal:
 
 .. code-block:: sh
 
-  git clone git@github.com:FabriceSalvaire/MonitorServer.git
+  git clone git@github.com:FabriceSalvaire/monitor-server.git
 
-Then to build and install MonitorServer run these commands:
+Then to build and install monitor-server run these commands:
 
 .. code-block:: sh
 

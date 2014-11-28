@@ -1,13 +1,13 @@
 .. -*- Mode: rst -*-
 
 ..
-   |MonitorServerUrl|
-   |MonitorServerHomePage|_
-   |MonitorServerDoc|_
-   |MonitorServer@github|_
-   |MonitorServer@readthedocs|_
-   |MonitorServer@readthedocs-badge|
-   |MonitorServer@pypi|_
+   |monitor-serverUrl|
+   |monitor-serverHomePage|_
+   |monitor-serverDoc|_
+   |monitor-server@github|_
+   |monitor-server@readthedocs|_
+   |monitor-server@readthedocs-badge|
+   |monitor-server@pypi|_
 
 .. |ohloh| image:: https://www.openhub.net/accounts/230426/widgets/account_tiny.gif
    :target: https://www.openhub.net/accounts/fabricesalvaire
@@ -15,28 +15,28 @@
    :height: 15px
    :width:  80px
 
-.. |MonitorServerUrl| replace:: http://fabricesalvaire.github.io/MonitorServer
+.. |monitor-serverUrl| replace:: http://fabricesalvaire.github.io/monitor-server
 
-.. |MonitorServerHomePage| replace:: MonitorServer Home Page
-.. _MonitorServerHomePage: http://fabricesalvaire.github.io/MonitorServer
+.. |monitor-serverHomePage| replace:: monitor-server Home Page
+.. _monitor-serverHomePage: http://fabricesalvaire.github.io/monitor-server
 
-.. |MonitorServerDoc| replace:: MonitorServer Documentation
-.. _MonitorServerDoc: http://monitorserver.readthedocs.org/en/latest
+.. |monitor-serverDoc| replace:: monitor-server Documentation
+.. _monitor-serverDoc: http://monitorserver.readthedocs.org/en/latest
 
-.. |MonitorServer@readthedocs-badge| image:: https://readthedocs.org/projects/monitorserver/badge/?version=latest
+.. |monitor-server@readthedocs-badge| image:: https://readthedocs.org/projects/monitorserver/badge/?version=latest
    :target: http://monitorserver.readthedocs.org/en/latest
 
-.. |MonitorServer@github| replace:: https://github.com/FabriceSalvaire/MonitorServer
-.. .. _MonitorServer@github: https://github.com/FabriceSalvaire/MonitorServer
+.. |monitor-server@github| replace:: https://github.com/FabriceSalvaire/monitor-server
+.. .. _monitor-server@github: https://github.com/FabriceSalvaire/monitor-server
 
-.. |MonitorServer@readthedocs| replace:: http://monitorserver.readthedocs.org
-.. .. _MonitorServer@readthedocs: http://monitorserver.readthedocs.org
+.. |monitor-server@readthedocs| replace:: http://monitorserver.readthedocs.org
+.. .. _monitor-server@readthedocs: http://monitorserver.readthedocs.org
 
-.. |MonitorServer@pypi| replace:: https://pypi.python.org/pypi/MonitorServer
-.. .. _MonitorServer@pypi: https://pypi.python.org/pypi/MonitorServer
+.. |monitor-server@pypi| replace:: https://pypi.python.org/pypi/monitor-server
+.. .. _monitor-server@pypi: https://pypi.python.org/pypi/monitor-server
 
-.. |Build Status| image:: https://travis-ci.org/FabriceSalvaire/MonitorServer.svg?branch=master
-   :target: https://travis-ci.org/FabriceSalvaire/MonitorServer
-   :alt: MonitorServer build status @travis-ci.org
+.. |Build Status| image:: https://travis-ci.org/FabriceSalvaire/monitor-server.svg?branch=master
+   :target: https://travis-ci.org/FabriceSalvaire/monitor-server
+   :alt: monitor-server build status @travis-ci.org
 
 .. End

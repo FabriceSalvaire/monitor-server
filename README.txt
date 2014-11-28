@@ -4,12 +4,12 @@
 .. include:: abbreviation.txt
 
 ====================
- MonitorServer
+ Monitor Server
 ====================
 
-The official MonitorServer Home Page is located at |MonitorServerUrl|
+The official monitor-server Home Page is located at |monitor-serverUrl|
 
-The latest documentation build from the git repository is available at readthedocs.org |MonitorServer@readthedocs-badge|
+The latest documentation build from the git repository is available at readthedocs.org |monitor-server@readthedocs-badge|
 
 Written by `Fabrice Salvaire <http://fabrice-salvaire.pagesperso-orange.fr>`_.
 
@@ -17,8 +17,8 @@ Written by `Fabrice Salvaire <http://fabrice-salvaire.pagesperso-orange.fr>`_.
 
 -----
 
-.. image:: https://raw.github.com/FabriceSalvaire/MonitorServer/master/doc/sphinx/source/images/screenshot1-scaled.png
-.. image:: https://raw.github.com/FabriceSalvaire/MonitorServer/master/doc/sphinx/source/images/screenshot2-scaled.png
+.. 
+  .. image:: https://raw.github.com/FabriceSalvaire/monitor-server/master/doc/sphinx/source/images/screenshot1-scaled.png
 
 .. include:: introduction.txt
 

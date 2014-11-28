@@ -2,7 +2,7 @@
 
 ####################################################################################################
 # 
-# MonitorServer - A Server Monitoring Application
+# monitor-server - A Server Monitoring Application
 # Copyright (C) 2014 Fabrice Salvaire
 #
 # This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 
 ####################################################################################################
 #
-# MonitorServer documentation build configuration file, created by
+# monitor-server documentation build configuration file, created by
 # sphinx-quickstart on Fri Apr  8 16:54:03 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -82,7 +82,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'MonitorServer'
+project = u'monitor-server'
 copyright = u'2013, Fabrice Salvaire'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -152,7 +152,7 @@ autodoc_default_flags = [
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = 'default'
-html_theme = 'MonitorServer'
+html_theme = 'MyTheme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -225,7 +225,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MonitorServer'
+htmlhelp_basename = 'monitor-server'
 
 ####################################################################################################
 #
@@ -241,7 +241,7 @@ latex_font_size = '10pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'MonitorServer.tex', u'MonitorServer Documentation', u'Fabrice Salvaire', 'manual'),
+  ('index', 'monitor-server.tex', u'monitor-server Documentation', u'Fabrice Salvaire', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -275,7 +275,7 @@ latex_logo = None
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'MonitorServer', u'MonitorServer Documentation', [u'Fabrice Salvaire'], 1)
+    ('index', 'monitor-server', u'monitor-server Documentation', [u'Fabrice Salvaire'], 1)
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.

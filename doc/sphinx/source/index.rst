@@ -5,16 +5,16 @@
 
    <br/>
 
-Welcome to the MonitorServer documentation!
+Welcome to the monitor-server documentation!
 
-.. note:: The official Home Page of MonitorServer is located at |MonitorServerUrl|
+.. note:: The official Home Page of monitor-server is located at |monitor-serverUrl|
 
     If you are at http://readthedocs.org then you are reading the so called *latest documentation*.
 
-    The *latest documentation* |MonitorServer@readthedocs-badge| is automatically built from the
+    The *latest documentation* |monitor-server@readthedocs-badge| is automatically built from the
     git repository after each commit.
 
-    As opposite the |MonitorServerHomePage|_ is built manually and is thus less prone to errors.
+    As opposite the |monitor-serverHomePage|_ is built manually and is thus less prone to errors.
 
 .. include:: introduction.txt
 
@@ -22,7 +22,7 @@ Welcome to the MonitorServer documentation!
  Installation
 ==============
 
-The procedure to install MonitorServer is described in the :ref:`Installation Manual <installation-page>`.
+The procedure to install monitor-server is described in the :ref:`Installation Manual <installation-page>`.
 
 =========
  Testing
@@ -34,7 +34,7 @@ See the :ref:`testing section <testing-page>`.
  Documentation
 ===============
 
- * :ref:`MonitorServer Reference Manual <reference-manual-page>`
+ * :ref:`monitor-server Reference Manual <reference-manual-page>`
 
 ==========
  Overview
