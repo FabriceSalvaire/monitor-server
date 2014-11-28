@@ -36,25 +36,13 @@ import argparse
 ####################################################################################################
 
 from MonitorServer.GUI.Application import Application
-from MonitorServer.Tools.ProgramOptions import PathAction
 
 ####################################################################################################
 #
 # Options
 #
 
-argument_parser = argparse.ArgumentParser(description='Laptop Control Panel')
-
-# argument_parser.add_argument('--user-script',
-#                              dest='user_script',
-#                              action=PathAction,
-#                              default=None,
-#                              help='user script to execute')
-
-# argument_parser.add_argument('--user-script-args',
-#                              dest='user_script_args',
-#                              default='',
-#                              help="user script args (don't forget to quote)")
+argument_parser = argparse.ArgumentParser(description='Monitor Server')
 
 args = argument_parser.parse_args()
 
